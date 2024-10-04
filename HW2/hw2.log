@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  3 OCT 2024 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  4 OCT 2024 03:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -141,6 +141,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box54
 \@float@everytoks=\toks25
 \@floatcapt=\box55
+) (c:/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
 ) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
@@ -148,20 +150,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./hw2.aux)
 \openout1 = `hw2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
@@ -181,15 +183,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (58.79329pt too wide) in paragraph at lines 27--37
+Overfull \hbox (58.79329pt too wide) in paragraph at lines 28--38
  [][] 
  []
 
@@ -198,14 +200,14 @@ Overfull \hbox (58.79329pt too wide) in paragraph at lines 27--37
 [1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (58.79329pt too wide) in paragraph at lines 43--53
+Overfull \hbox (58.79329pt too wide) in paragraph at lines 44--54
  [][] 
  []
 
-<D:/code/latex/CS534-ml/HW2/plot/Figure_1.png, id=12, 462.528pt x 346.896pt>
+<D:/code/latex/CS534-ml/HW2/plot/Figure_1.png, id=13, 462.528pt x 346.896pt>
 File: D:/code/latex/CS534-ml/HW2/plot/Figure_1.png Graphic file (type png)
 <use D:/code/latex/CS534-ml/HW2/plot/Figure_1.png>
-Package pdftex.def Info: D:/code/latex/CS534-ml/HW2/plot/Figure_1.png  used on input line 59.
+Package pdftex.def Info: D:/code/latex/CS534-ml/HW2/plot/Figure_1.png  used on input line 60.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -213,7 +215,7 @@ Package pdftex.def Info: D:/code/latex/CS534-ml/HW2/plot/Figure_1.png  used on i
 <D:/code/latex/CS534-ml/HW2/plot/Figure_2.png, id=18, 462.528pt x 346.896pt>
 File: D:/code/latex/CS534-ml/HW2/plot/Figure_2.png Graphic file (type png)
 <use D:/code/latex/CS534-ml/HW2/plot/Figure_2.png>
-Package pdftex.def Info: D:/code/latex/CS534-ml/HW2/plot/Figure_2.png  used on input line 66.
+Package pdftex.def Info: D:/code/latex/CS534-ml/HW2/plot/Figure_2.png  used on input line 67.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -221,38 +223,70 @@ Package pdftex.def Info: D:/code/latex/CS534-ml/HW2/plot/Figure_2.png  used on i
 <D:/code/latex/CS534-ml/HW2/plot/Figure_3.png, id=23, 462.528pt x 346.896pt>
 File: D:/code/latex/CS534-ml/HW2/plot/Figure_3.png Graphic file (type png)
 <use D:/code/latex/CS534-ml/HW2/plot/Figure_3.png>
-Package pdftex.def Info: D:/code/latex/CS534-ml/HW2/plot/Figure_3.png  used on input line 73.
+Package pdftex.def Info: D:/code/latex/CS534-ml/HW2/plot/Figure_3.png  used on input line 74.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
 [4 <d:/code/latex/CS534-ml/HW2/plot/Figure_2.png>]
 
-[5 <d:/code/latex/CS534-ml/HW2/plot/Figure_3.png>]
-Overfull \hbox (0.8616pt too wide) in paragraph at lines 96--97
-[]\OT1/cmr/m/n/10 Logistic Re-gres-sion ben-e-fited more from pre-pro-cess-ing steps like Stan-
+[5{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <d:/code/latex/CS534-ml/HW2/plot/Figure_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Overfull \hbox (69.13393pt too wide) in paragraph at lines 116--117
+[]\OT1/cmr/bx/n/10 Best Ridge: \OT1/cmr/m/n/10 val-size=0.1, s=5, al-pha=0.14174741629268062, score=0.10173628031656681 
+ []
+
+
+Overfull \hbox (85.26584pt too wide) in paragraph at lines 117--118
+[]\OT1/cmr/bx/n/10 Best LASSO: \OT1/cmr/m/n/10 val-size=0.1, s=5, al-pha=0.0005336699231206312, score=0.10343880368546088 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Overfull \hbox (44.664pt too wide) in paragraph at lines 123--133
+ [][] 
+ []
+
+
+Overfull \hbox (83.10086pt too wide) in paragraph at lines 138--149
+ [][] 
  []
 
 
 
-[6] (./hw2.aux)
+[6]
+
+[7] (./hw2.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2709 strings out of 473584
- 39439 string characters out of 5732363
- 1933908 words of memory out of 5000000
- 25592 multiletter control sequences out of 15000+600000
- 565625 words of font info for 66 fonts, out of 8000000 for 9000
+ 2743 strings out of 473584
+ 40176 string characters out of 5732363
+ 1938908 words of memory out of 5000000
+ 25620 multiletter control sequences out of 15000+600000
+ 565960 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,482b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on hw2.pdf (6 pages, 195100 bytes).
+ 57i,9n,65p,482b,234s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on hw2.pdf (7 pages, 205797 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

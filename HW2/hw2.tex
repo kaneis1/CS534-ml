@@ -4,7 +4,8 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{float}
-\title{HW1}
+\usepackage{placeins}
+\title{HW2}
 \author{ZONGQI CUI}
 \begin{document}
 \maketitle
@@ -20,8 +21,8 @@
             \item[(d)] When $\lambda = \infty $, the regularization term becomes extremely large, forcing all the coefficients to be zero. This results in the simplest possible model (i.e., predicting the mean of the response variable for all inputs). In this scenario, the model has no flexibility, leading to extremely high bias but zero variance, because the model's prediction does not change regardless of the input data.
         \end{itemize}
     \section{Problem 2}
-        \begin{itemize}
-            \item[2(c)]
+        
+            \textbf{2(c)}
                 \begin{table}[H]
                     \centering
                     \begin{tabular}{lcccc}
@@ -37,7 +38,7 @@
                     \caption{Accuracy and AUC of Naive Bayes on Training and Test Sets Across Different Preprocessing Steps}
                     \label{tab:nb_results}
                 \end{table}
-            \item[2(e)]
+            \textbf{2(e)}
                 \begin{table}[H]
                     \centering
                     \begin{tabular}{lcccc}
@@ -53,7 +54,7 @@
                     \caption{Accuracy and AUC of Logistic Regression on Training and Test Sets Across Different Preprocessing Steps}
                     \label{tab:lr_results}
                 \end{table}
-            \item[2(f)] 
+            \textbf{2(f)} 
                 \begin{figure}[H]
                     \centering
                     \includegraphics[width=\textwidth]{D:/code/latex/CS534-ml/HW2/plot/Figure_1.png}
@@ -74,7 +75,7 @@
                     \caption{ROC Curves for Best Models}
                     \label{fig:best_roc}
                 \end{figure} 
-            \item[2(g)]
+            \textbf{2(g)}
                 \textbf{Effect of Preprocessing on Models:}
                 \begin{itemize}
                     \item \textbf{Naive Bayes:} 
@@ -96,12 +97,57 @@
                     \item Logistic Regression benefited more from preprocessing steps like Standardization and Log Transformation compared to Naive Bayes.
                     \item Naive Bayes showed relatively consistent performance across different preprocessing steps, while Logistic Regression showed significant improvement with appropriate preprocessing.
                 \end{itemize}
-        \end{itemize}
+        
     \section{Problem 3}
-        \begin{itemize}
-            \item[3(a)]
+        
+            \textbf{3(a)}
                 Given the results from the previous problem, we can see that the Log Transformation provided the best performance for both Naive Bayes and Logistic Regression models.\\
-                Therefore, we will use the Log Transformation preprocessing step.
-            \item[] 
-        \end{itemize}         
+                Therefore, we will use the Log Transformation preprocessing step.\\
+                \par
+            \textbf{3(g)}
+                \textbf{Best Hyperparameters for Ridge and LASSO Regression:}
+                \begin{itemize}
+                    \item \textbf{Best Ridge:} alpha=65.79332246575683, k=5
+                    \item \textbf{Best LASSO:} alpha=0.0013530477745798076, k=5\\
+                \end{itemize}
+            \textbf{3(h)}
+                \textbf{Best Hyperparameters for Ridge and LASSO Regression using MCCV:}
+                \begin{itemize}
+                    \item \textbf{Best Ridge:} valsize=0.1, s=5, alpha=0.14174741629268062, score=0.10173628031656681
+                    \item \textbf{Best LASSO:} valsize=0.1, s=5, alpha=0.0005336699231206312, score=0.10343880368546088\\
+                \end{itemize}
+                
+            \textbf{3(i)}  
+                \begin{table}[H]
+                    \centering
+                    \begin{tabular}{|c|c|c|c|c|}
+                    \hline
+                    \textbf{Model} & \textbf{Test Accuracy} & \textbf{Test MSE} & \textbf{Test AUC} & \textbf{Training Time (s)} \\
+                    \hline
+                    Ridge (k-fold) & 0.872580 & 0.114788 & 0.951877 & 0.004001 \\
+                    Lasso (k-fold) & 0.872580 & 0.115352 & 0.952215 & 0.005000 \\
+                    Ridge (MCCV) & 0.874453 & 0.112664 & 0.952204 & 0.002999 \\
+                    Lasso (MCCV) & 0.873204 & 0.113766 & 0.952421 & 0.003999 \\
+                    \hline
+                    \end{tabular}
+                    \caption{Performance of Ridge and Lasso models using best parameters from k-fold and MCCV}
+                    \label{tab:results}
+                \end{table}
+                \begin{table}[H]
+                    \centering
+                    \begin{tabular}{|c|c|c|c|c|c|}
+                    \hline
+                    \textbf{Index} & \textbf{Actual} & \textbf{Ridge (k-fold)} & \textbf{Lasso (k-fold)} & \textbf{Ridge (MCCV)} & \textbf{Lasso (MCCV)} \\
+                    \hline
+                    1 & 0.0 & 0.1 & 0.2 & 0.1 & 0.2 \\
+                    2 & 1.0 & 0.9 & 0.8 & 0.9 & 0.8 \\
+                    3 & 0.0 & 0.1 & 0.2 & 0.1 & 0.2 \\
+                    4 & 1.0 & 0.9 & 0.8 & 0.9 & 0.8 \\
+                    5 & 0.0 & 0.1 & 0.2 & 0.1 & 0.2 \\
+                    \hline
+                    \end{tabular}
+                    \caption{Comparison of Actual vs. Predicted Test Values}
+                    \label{tab:comparison}
+                \end{table}
+                
 \end{document}
